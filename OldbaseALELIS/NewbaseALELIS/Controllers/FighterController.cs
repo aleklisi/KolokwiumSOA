@@ -17,27 +17,24 @@ namespace NewbaseALELIS.Controllers
         {
             return _fighterRepository.GetAll();
         }
-        /*
-        // GET api/values/5
+
         public string Get(int id)
         {
-            return "value";
+            return _fighterRepository.Get(id).Name;
         }
 
-        // POST api/values
-        public void Post([FromBody]Something value)
+        public string Post(Fighter fiighter)
         {
-            int i = 10;
+            return _fighterRepository.Post(fiighter);
         }
-
-        // PUT api/values/5
-        public void Put(int id, [FromBody]string value)
+        //za 1 pkt
+        public Fighter Put([FromBody]Fighter fiighter)
         {
+            return _fighterRepository.Put(fiighter);
         }
-
-        // DELETE api/values/5
-        public void Delete(int id)
+        public bool Delete(int id)
         {
-        }*/
+            return _fighterRepository.Delete(id);
+        }
     }
 }
