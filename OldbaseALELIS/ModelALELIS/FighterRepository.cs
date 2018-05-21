@@ -69,6 +69,9 @@ namespace ModelALELIS
                 var dbObject = fighter;
 
                 var repository = db.GetCollection<Fighter>("fighters");
+                //w trakcie tworzenia sprawdza, czy Fighter o zadanej nazwie ju¿ istnieje – jeœli istnieje, nie zostaje dodany
+                if (repository.Exists(f => f.Name == fighter.Name))
+                    return "";
                 if (repository.FindById(fighter.Id) == null)
                     repository.Insert(dbObject);
 

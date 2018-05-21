@@ -12,7 +12,7 @@ namespace OldbaseALELIS
 
         [OperationContract]
         string CreateFighter(Fighter fighter);
-
+        // metoda GetAllFighters() – zwraca kolekcję wszystkich obiektów Fighter
         [OperationContract]
         List<Fighter> GetAllFighters();
     }
