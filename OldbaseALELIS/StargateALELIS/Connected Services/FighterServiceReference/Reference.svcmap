@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="8fbd8ff2-69aa-420b-b8cd-6ec53059df3b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:57159/FighterService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="FighterService.xsd" MetadataType="Schema" ID="175b957f-3082-48d7-a53c-168ae10c7d8f" SourceId="1" SourceUrl="http://localhost:57159/FighterService.svc?xsd=xsd1" />
+    <MetadataFile FileName="FighterService.wsdl" MetadataType="Wsdl" ID="56e55a74-23b1-4903-8da3-7158157aca23" SourceId="1" SourceUrl="http://localhost:57159/FighterService.svc?wsdl" />
+    <MetadataFile FileName="FighterService1.xsd" MetadataType="Schema" ID="e3ae8029-d7a0-416d-a00b-0a3721d66898" SourceId="1" SourceUrl="http://localhost:57159/FighterService.svc?xsd=xsd0" />
+    <MetadataFile FileName="FighterService.disco" MetadataType="Disco" ID="c86e415b-d311-4150-90ba-86466f336fb7" SourceId="1" SourceUrl="http://localhost:57159/FighterService.svc?disco" />
+    <MetadataFile FileName="FighterService2.xsd" MetadataType="Schema" ID="6fe7638d-9f3f-459a-a031-244967e1c4d2" SourceId="1" SourceUrl="http://localhost:57159/FighterService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

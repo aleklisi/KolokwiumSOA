@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="OldbaseALELIS.FighterService" CodeBehind="FighterService.svc.cs" %>
